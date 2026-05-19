@@ -18,7 +18,6 @@
 </head>
 <body class="bg-gray-50 min-h-screen py-8 px-4 sm:px-6 lg:px-8">
 
-    <!-- Control Bar -->
     <div class="max-w-5xl mx-auto mb-6 flex justify-end no-print">
         <button onclick="window.print()" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-full shadow-lg transition-all duration-200 font-medium transform hover:-translate-y-0.5 cursor-pointer">
             <i data-lucide="download" class="w-4 h-4"></i>
@@ -26,10 +25,8 @@
         </button>
     </div>
 
-    <!-- Main Resume Sheet -->
     <div class="max-w-5xl mx-auto bg-white shadow-xl rounded-2xl overflow-hidden print:shadow-none print:max-w-none print:rounded-none">
         
-        <!-- Header Section -->
         <div class="bg-gradient-to-r from-blue-600 to-cyan-500 text-white p-8 sm:p-12">
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
                 <div>
@@ -40,11 +37,18 @@
                     </div>
                 </div>
                 
-                <div class="flex flex-col gap-2 text-sm sm:text-base font-medium">
+                <div class="flex flex-col gap-2 text-sm sm:text-base font-medium w-full md:w-auto">
                     <div class="flex items-center gap-3 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-md">
                         <i data-lucide="mail" class="w-4 h-4"></i>
                         <span>felixko123432@gmail.com</span>
                     </div>
+                    <a href="https://wa.me/85293500699" target="_blank" class="flex items-center gap-3 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-lg backdrop-blur-md transition-all duration-200 group cursor-pointer">
+                        <i data-lucide="phone" class="w-4 h-4"></i>
+                        <span>9350 0699</span>
+                        <span class="text-xs bg-green-500 text-white px-2 py-0.5 rounded-full font-normal ml-auto flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span>WhatsApp 聯絡
+                        </span>
+                    </a>
                     <div class="flex items-center gap-3 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-md">
                         <i data-lucide="map-pin" class="w-4 h-4"></i>
                         <span>香港 (永久性居民)</span>
@@ -57,13 +61,10 @@
             </div>
         </div>
 
-        <!-- Content Body -->
         <div class="grid grid-cols-1 lg:grid-cols-12">
 
-            <!-- Left Column (Sidebar) -->
             <div class="lg:col-span-4 bg-slate-50 p-8 border-r border-slate-100">
                 
-                <!-- Education -->
                 <section class="mb-10">
                     <h2 class="text-lg font-bold text-blue-800 flex items-center gap-2 mb-5 border-b-2 border-blue-100 pb-2">
                         <i data-lucide="graduation-cap" class="w-5 h-5 text-blue-600"></i>
@@ -85,7 +86,6 @@
                     </div>
                 </section>
 
-                <!-- Skills -->
                 <section class="mb-10">
                     <h2 class="text-lg font-bold text-blue-800 flex items-center gap-2 mb-5 border-b-2 border-blue-100 pb-2">
                         <i data-lucide="award" class="w-5 h-5 text-blue-600"></i>
@@ -128,7 +128,6 @@
                     </div>
                 </section>
 
-                <!-- Interests Box -->
                 <section class="bg-gradient-to-br from-blue-500 to-cyan-500 p-5 rounded-xl text-white shadow-md">
                     <h2 class="text-lg font-bold flex items-center gap-2 mb-3 text-white">
                         <i data-lucide="camera" class="w-5 h-5"></i>
@@ -145,10 +144,8 @@
 
             </div>
 
-            <!-- Right Column (Main Content) -->
             <div class="lg:col-span-8 p-8 sm:p-12 bg-white">
                 
-                <!-- About Me -->
                 <section class="mb-10">
                     <h2 class="text-2xl font-bold text-gray-800 flex items-center gap-3 mb-4">
                         <span class="w-2 h-8 bg-blue-500 rounded-r-full -ml-12 lg:-ml-12 mr-2"></span>
@@ -160,7 +157,6 @@
                     </p>
                 </section>
 
-                <!-- Work Experience -->
                 <section>
                     <h2 class="text-2xl font-bold text-gray-800 flex items-center gap-3 mb-8">
                         <span class="w-2 h-8 bg-blue-500 rounded-r-full -ml-12 lg:-ml-12 mr-2"></span>
@@ -168,7 +164,6 @@
                     </h2>
 
                     <div class="space-y-10">
-                        <!-- Job 1 -->
                         <div class="relative">
                             <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
                                 <div>
@@ -186,7 +181,7 @@
                                 </li>
                                 <li class="flex items-start gap-2">
                                     <i data-lucide="star" class="w-4 h-4 text-cyan-500 mt-1 shrink-0"></i>
-                                    <span>協助策劃及帶領復康活動，促進服務使用者的身心健康。</span>
+                                    <span>協助策劃及帶領復康活動，促進服務使用者裝的身心健康。</span>
                                 </li>
                                 <li class="flex items-start gap-2">
                                     <i data-lucide="star" class="w-4 h-4 text-cyan-500 mt-1 shrink-0"></i>
@@ -197,7 +192,6 @@
 
                         <div class="border-t border-gray-100"></div>
 
-                        <!-- Job 2 -->
                         <div class="relative">
                             <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
                                 <div>
@@ -226,7 +220,6 @@
 
                         <div class="border-t border-gray-100"></div>
 
-                        <!-- Job 3 -->
                         <div class="relative">
                             <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
                                 <div>
@@ -258,16 +251,13 @@
 
         </div>
         
-        <!-- Footer -->
         <div class="bg-gray-50 p-6 text-center text-gray-400 text-xs border-t border-gray-200 no-print">
             <p>© 2026 Felix Ko. Resume Generated.</p>
         </div>
     </div>
 
-    <!-- Initialize Icons -->
     <script>
         lucide.createIcons();
     </script>
 </body>
 </html>
-
